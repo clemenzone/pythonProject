@@ -4,7 +4,7 @@ from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 
 # Create your models here.
-class UserManager(BaseUserManager):
+class MyUserManager(BaseUserManager):
     def create_user(self, username, password=None, admin=False):
         if not username:
             raise ValueError("User's must have an username")
@@ -23,10 +23,21 @@ class UserManager(BaseUserManager):
         )
         return user
 
-class User(AbstractBaseUser):
-    username = models.CharField(max_length=200, unique=True, default="", editable=False)
-    admin = models.BooleanField(unique=False)
+
+    def create_superuser(self,username,password):
+        user = self.create_user(username, password=password)
+        user.is_admin = True
+        user.is_superuser = True
+        user.save(using=self._db)
+        return user
+
+class MyUser(AbstractBaseUser):
+    username = models.CharField(max_length=200, unique=True, default="")
     timestamp = models.DateTimeField(auto_now_add=True)
+    is_admin = models.BooleanField(default=False)
+
+    objects = MyUserManager()
+
     USERNAME_FIELD = 'username'
 
     def _str_(self):

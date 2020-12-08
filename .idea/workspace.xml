@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3436ea3f-6fb4-4cef-89c2-b8b816d761f0" name="Default Changelist" comment="" />
+    <list default="true" id="3436ea3f-6fb4-4cef-89c2-b8b816d761f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/auctoritas/timecard/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auctoritas/timecard/templates/timecard/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auctoritas/timecard/templates/timecard/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auctoritas/timecard/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/auctoritas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/auctoritas/auctoritas/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/auctoritas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/auctoritas/auctoritas/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/auctoritas/timecard/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/auctoritas/timecard/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/migrations/0002_auto_20201125_1549.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/migrations/0003_auto_20201125_1614.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/migrations/0004_auto_20201125_1640.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/migrations/0005_auto_20201125_1645.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/migrations/0006_auto_20201125_1650.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/auctoritas/timecard/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/auctoritas/timecard/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/auctoritas/timecard/templates/timecard/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/auctoritas/timecard/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/auctoritas/timecard/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctoritas/login/views.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -63,11 +107,33 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="533" y="151" key="#com.intellij.ide.util.MemberChooser" timestamp="1600730177539">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="533" y="151" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808@0.23.1440.808" timestamp="1600730177539" />
+    <state x="842" y="345" key="Github.ShareDialog" timestamp="1606335163215">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="842" y="345" key="Github.ShareDialog/0.23.1440.834@0.23.1440.834" timestamp="1606335163215" />
+    <state x="729" y="153" key="Github.UntrackedFilesDialog" timestamp="1606335179570">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="729" y="153" key="Github.UntrackedFilesDialog/0.23.1440.834@0.23.1440.834" timestamp="1606335179570" />
     <state width="1379" height="195" key="GridCell.Tab.0.bottom" timestamp="1600740454057">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -88,9 +154,24 @@
     </state>
     <state width="1379" height="194" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1600678345132" />
     <state width="1379" height="195" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1600740454057" />
+    <state x="640" y="174" key="Vcs.Push.Dialog.v2" timestamp="1607453449449">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="640" y="174" key="Vcs.Push.Dialog.v2/0.23.1440.832@0.23.1440.832" timestamp="1607453449449" />
     <state x="740" y="406" width="670" height="452" key="search.everywhere.popup" timestamp="1606318400245">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="740" y="406" width="670" height="452" key="search.everywhere.popup/0.23.1440.835@0.23.1440.835" timestamp="1606318400245" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/auctoritas/timecard/models.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
